@@ -1,0 +1,121 @@
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #034C52;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+icon-bar {
+	
+	align-content:right;
+
+}
+
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* Main Styles */
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+    background-color: #FFCDB4;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+
+.button {
+	background-color: #333;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+	background-color: #666;
+}
+
+/* Room Styles */
+
+.room {
+	float: left;
+	margin-right: 40px;
+	width: calc(33.33% - 40px);
+}
+
+.room img {
+	max-width: 100%;
+	height: auto;
+	transition: all 0.5s ease-in-out; 
+}
+
+.room h3 {
+	font-size: 24px; 
+	margin-bottom: 10px; 
+}
+
+/* Services Styles */
+
+ul {
+	font-size: 18px; 
+	line-height: 1.5em; 
+	list-style-type:none; 
+	margin-left:-30px; 
+	padding-left:-30px; 
+}
+
