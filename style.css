@@ -6,13 +6,20 @@
 /* Dark Charcoal - rgb: 47, 50, 55
 
 
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 /* Global Styles */
 
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
+	font-family: Ralewa;
+	margin: 40px 4%;
 	padding: 0;
+	background-color: rgb(101, 106, 105);
 }
 
 .clear {
